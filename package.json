@@ -1,0 +1,16 @@
+{
+  "name": "music-player",
+  "version": "2.1.0",
+  "description": "Play music and ambient sounds while coding in Acode.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "pack": "node pack-zip.js"
+  },
+  "author": "Hacker2.0",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "adm-zip": "^0.5.16"
+  }
+}
