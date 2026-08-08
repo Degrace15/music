@@ -1,0 +1,30 @@
+{
+  "$schema": "https://acode.app/schema/plugin/v0.1.0.json",
+  "id": "com.degrace.musicplayer",
+  "name": "Music Player",
+  "main": "dist/main.js",
+  "version": "2.1.0",
+  "icon": "icon.png",
+  "minVersionCode": 290,
+  "license": "MIT",
+  "repository": "https://github.com/Degrace15/music.git", 
+  "price": 0,
+  "keywords": [
+    "music",
+    "audio",
+    "player",
+    "mp3",
+    "coding",
+    "focus"
+  ],
+  "author": {
+    "name": "Hacker2.0",
+    "email": "kiminoudegrace64@gmail.com",
+    "github": "Degrace15"
+  },
+  "description": "Play music and ambient sounds while coding in Acode.",
+  "files": [
+    "readme.md",
+    "CHANGELOG.md"
+  ]
+  }
