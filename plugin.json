@@ -1,13 +1,13 @@
 {
   "$schema": "https://acode.app/schema/plugin/v0.1.0.json",
-  "id": "com.degrace.musicplayer",
+  "id": "com.degrace.musicplay",
   "name": "Music Player",
   "main": "dist/main.js",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "icon": "icon.png",
   "minVersionCode": 290,
   "license": "MIT",
-  "repository": "https://github.com/Degrace15/music.git", 
+  "repository": "https://github.com/Degrace15/music.git",
   "price": 0,
   "keywords": [
     "music",
@@ -27,4 +27,4 @@
     "readme.md",
     "CHANGELOG.md"
   ]
-  }
+}

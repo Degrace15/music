@@ -1,7 +1,7 @@
 {
   "name": "music-player",
-  "version": "2.1.0",
-  "description": "Play music and ambient sounds while coding in Acode.",
+  "version": "2.1.1",
+  "description": "Play music and ambient sounds while coding",
   "main": "dist/main.js",
   "scripts": {
     "build": "node esbuild.config.mjs",
@@ -9,8 +9,15 @@
   },
   "author": "Hacker2.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Degrace15/music.git"
+  },
   "devDependencies": {
     "esbuild": "^0.25.0",
     "adm-zip": "^0.5.16"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
   }
 }
